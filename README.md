@@ -234,25 +234,6 @@ A minimal React + Ethers.js UI (`frontend/src/App.jsx`) supports: connecting Met
 
 ---
 
-## 📸 Screenshots / Proof Checklist
-
-The `docs/diagrams/` folder contains the architecture and workflow diagrams embedded above. For your own submission, capture and add to `screenshots/`:
-
-| # | Screenshot | Proves |
-|---|---|---|
-| 1 | `01_contract_compiled.png` | Successful Solidity compilation |
-| 2 | `02_contract_deployed.png` | Contract deployed on Remix VM / localhost |
-| 3 | `03_issuer_registered.png` | Admin successfully registered a verifier |
-| 4 | `04_credit_issued.png` | `BatchIssued` event + updated balance |
-| 5 | `05_marketplace_listing.png` | Credit successfully listed for sale |
-| 6 | `06_purchase_success.png` | `Purchased` event + new owner balance |
-| 7 | `07_credit_retired.png` | `Retired` event + `retiredSupply` increase |
-| 8 | `08_retired_transfer_blocked.png` | Reverted transaction on a retired credit |
-| 9 | `09_hardhat_tests_passing.png` | `npx hardhat test` all green |
-| 10 | `10_github_repo.png` | Public repository with commit history |
-
----
-
 ## ⚠️ Limitations & Market Integrity Considerations
 
 Blockchain can preserve transaction history and ownership with strong guarantees, **but it cannot by itself prove that a real-world project actually removed or avoided the stated amount of CO₂**. Production systems still need trusted measurement, reporting, and verification (MRV) processes, oracle integrations, and regulatory oversight. This project also does not address: real-registry double counting across chains, KYC/sanctions screening, or dispute resolution — all flagged as future scope below.
@@ -276,8 +257,4 @@ This is an educational/portfolio project built with **simulated data and test wa
 ## 👤 Author
 
 **Ananya Jain**
-Blockchain Course Project — Carbon Credit Trading Platform Prototype
-
 ---
-
-*If this project helped you, consider ⭐ starring the repository.*
