@@ -67,7 +67,7 @@ Systems like this are directly relevant to:
 
 ## 👥 Actors & Permissions
 
-docs/screenshots/03_actors_permissions_matrix.png
+![Actors and Permissions Matrix](docs/screenshots/03_actors_permissions_matrix.png)
 
 | Actor | Responsibilities |
 |---|---|
@@ -95,7 +95,7 @@ This repo implements: role-gated ERC-20 credit token, project registry, batch is
 
 ## 🏗️ Architecture
 
-![System Architecture](docs/diagrams/01_system_architecture.png)
+![System Architecture](docs/screenshots/01_system_architecture.png)
 
 - **Frontend:** Issuer Dashboard, Marketplace UI, Buyer Dashboard, Portfolio View, Retirement Page
 - **Smart Contracts:** Issuer Registry, Carbon Credit Registry, Marketplace Contract, Transfer Logic, Retirement Registry
@@ -107,7 +107,7 @@ This repo implements: role-gated ERC-20 credit token, project registry, batch is
 
 ## 📦 Carbon Credit Data Model
 
-![Data Model and State Machine](docs/diagrams/04_data_model_state_machine.png)
+![Data Model and State Machine](docs/screenshots/04_data_model_state_machine.png)
 
 | Field | Type | Description |
 |---|---|---|
@@ -129,7 +129,7 @@ This repo implements: role-gated ERC-20 credit token, project registry, batch is
 
 ## 🔄 Lifecycle Workflow
 
-![Carbon Credit Lifecycle Workflow](docs/diagrams/02_credit_lifecycle_workflow.png)
+![Carbon Credit Lifecycle Workflow](docs/screenshots/02_credit_lifecycle_workflow.png)
 
 1. **Issuance** — Verifier calls `issueBatch()` for an active, registered project.
 2. **Ownership** — Minted tokens land in the developer/owner's wallet.
