@@ -1,0 +1,12 @@
+{
+  "projectId": "SOLAR-IND-2026-DEMO-001",
+  "projectName": "Simulated Solar Power Project - Demo 001",
+  "projectType": "Solar Energy (Simulated)",
+  "country": "India",
+  "vintageYear": 2026,
+  "methodology": "Simulated Renewable Energy Methodology (student project - not an official standard)",
+  "simulatedVerificationStatus": "SIMULATED - NOT OFFICIALLY VERIFIED",
+  "tonnesCO2e": 10,
+  "documentHash": "ipfs://sample-audit-docs-placeholder",
+  "notes": "This metadata file is generated for educational purposes only. It does not represent a real, registry-verified carbon offset project and must not be used for actual carbon accounting or ESG claims."
+}

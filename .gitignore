@@ -1,0 +1,39 @@
+# --- Node / npm ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Hardhat ---
+artifacts/
+cache/
+typechain/
+typechain-types/
+coverage/
+coverage.json
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+*.pem
+secrets.json
+
+# --- Frontend build output ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+
+# --- Deployment artifacts (keep addresses out of git if sensitive) ---
+deployments/localhost/
