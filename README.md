@@ -67,7 +67,7 @@ Systems like this are directly relevant to:
 
 ## 👥 Actors & Permissions
 
-![Actors and Permissions Matrix](docs/diagrams/03_actors_permissions_matrix.png)
+docs/screenshots/03_actors_permissions_matrix.png
 
 | Actor | Responsibilities |
 |---|---|
